@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'roboto';
+    background-color: rgb(42, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(175, 152, 152);
+
+
+}
+
+.main {
+
+    width: 330px;
+    padding: 30px 25px;
+    background-color: #ffe0e5;
+
+}
+
+.main .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.circle {
+    width: 40px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
+}
+
+.nav i {
+    font-size: 30px;
+    color: palevioletred;
+}
+
+.nav #icon-1 {
+    font-size: 30px;
+}
+
+.image {
+    width: 140px;
+    height: 130px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 140px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.song {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.singer {
+    text-align: center;
+    font-size: 13px;
+}
+
+#progress {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background-color: #f53192;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0;
+}
+
+#progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #f53192;
+    width: 30px;
+    height: 30px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+}
+
+.control {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control div {
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #f53192;
+    cursor: pointer;
+    font-size: 25px;
+    box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
+
+
+}
+
+.control div:nth-child(2) {
+    transform: scale(1.5);
+    background: #f53192;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+}
+
